@@ -7,7 +7,7 @@ RM = rm -f
 
 ##### DO NOT CHANGE #####
 
-all: tdcal rvcal dorvmat fscal tscal clean xmultiplerv
+all: tdcal rvcal dorvmat fscal tscal xmultiplerv
 
 tdcal:	tdcal.o prop.o tdsim.o filt.o  lgstr.o \
 		boore.o qinv.o recipes.o $(MCHCMD) $(MCHARG)
